@@ -98,3 +98,33 @@ body{
     margin-left: 10px;
 }
 
+/*simulador*/
+.partidas {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.partidas ul li {
+    display: flex;
+}
+
+.timeCasa {
+    display: flex;
+}
+
+.timeFora {
+    display: flex;
+}
+
+#golsCasa {
+    width: 30px;
+}
+
+#golsFora {
+    width: 30px;
+}
+
+.partidas h3 {
+    padding: 5px;
+}

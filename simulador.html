@@ -25,15 +25,25 @@
         </div>
     </div>
 
-    <div class="noticias">
+    <div class="partidas" >
         <ul>
             <li>
-                <div class="container">
-                    <img src="assets/coutinho.avif" alt="">
-                    <a href="">Escalação: Jair ainda não volta contra o São Paulo; relacionados</a>
+                <div class="timeCasa">
+                    <h3 class="nome" id="casa">Vasco</h3>
+                    <input type="number" id="golsCasa">
                 </div>
+                <h3> x </h3>
+              <div class="timeFora">
+                    <input type="number" id="golsFora">
+                    <h3 class="nome" id="fora">Cuiabá</h3>
+                </div>
+
+                <input type="submit" value="Adicionar Partida" onclick="adicionarPartida()">
+
+                <div id="mensagem"></div>
             </li>
         </ul>
     </div>
+    <script src="simulador.js"></script>
 </body>
 </html>
